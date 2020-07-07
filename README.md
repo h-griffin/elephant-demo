@@ -152,7 +152,8 @@ exit venv
 
 > $ heroku create elephant-demo
 
-touch heroku yml
+touch **heroku.yml**
+    INDENTAITON!!!!
 
 git init
 
@@ -176,3 +177,18 @@ add heroku to allowed hosts
 heroku does not have env
 
 add env to config vars on heroku app
+
+heroku yml
+```release:
+    image: web
+    command:
+        - mkdir -p static
+        - python manage.py collectstatic --noinput
+```
+should create folder static so that it can run collect static files
+
+> $ heroku run bash
+running inside of container
+
+> $ mkdir static
+> python manage.py collectstatic
