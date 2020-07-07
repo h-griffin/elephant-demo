@@ -185,7 +185,7 @@ heroku yml
         - mkdir -p static
         - python manage.py collectstatic --noinput
 ```
-should create folder static so that it can run collect static files
+this should create folder static so that it can run collect static files
 
 > $ heroku run bash
 running inside of container
@@ -202,3 +202,6 @@ deleted commands from yml
 it is not making static or staticfiles
 
 remove static files from .gitignore
+
+jb will fix later, 
+
