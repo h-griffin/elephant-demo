@@ -169,6 +169,7 @@ make git ignore before commit
 
 > $ heroku stack:set container
 
+> $ git add & commit heroku master
 > $ git push heroku master
 
 add heroku to allowed hosts
