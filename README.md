@@ -197,7 +197,7 @@ exit heroku bash
 
 deleted commands from yml 
 > $ mkdir static
-> python manage.py collectstatic
+> $ python manage.py collectstatic
 
 it is not making static or staticfiles
 
@@ -205,3 +205,29 @@ remove static files from .gitignore
 
 jb will fix later, 
 
+current = BAD REQUEST (400)
+desired = not found 
+    look at admin 
+    look at /api/v1/snacks
+        should look like django page 
+
+
+next js app url uses heroku url
+    api
+
+
+
+
+next app
+git commit add push 
+
+look at about
+relationship with vercel
+
+link to vercel deployment on next git hub repo 
+
+set up relationship
+
+sign up with vercel
+
+enter url of git repository
