@@ -192,3 +192,13 @@ running inside of container
 
 > $ mkdir static
 > python manage.py collectstatic
+
+exit heroku bash
+
+deleted commands from yml 
+> $ mkdir static
+> python manage.py collectstatic
+
+it is not making static or staticfiles
+
+remove static files from .gitignore

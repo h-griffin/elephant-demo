@@ -116,5 +116,3 @@ venv.bak/
 node_modules/
 .next/
 
-.staticfiles
-.static
